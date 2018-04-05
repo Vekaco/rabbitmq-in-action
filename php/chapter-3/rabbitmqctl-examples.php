@@ -1,6 +1,6 @@
 <?php
 
-require_once('./php-amqplib/amqp.inc');
+require_once('../php-amqplib/amqp.inc');
 
 define('HOST', 'localhost');
 define('PORT', 5672);
