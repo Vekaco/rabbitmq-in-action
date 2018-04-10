@@ -30,9 +30,6 @@ $channel->basic_consume($queue,
 						false,
 						false,
 						$consumer);
-while(count($channel->callbacks)) {
-$channel->wait();
-}
 						
 $channel->close();
 $conn->close();
